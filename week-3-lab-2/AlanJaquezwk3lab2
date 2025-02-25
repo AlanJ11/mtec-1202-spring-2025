@@ -1,0 +1,541 @@
+@AlanJ11 ➜ ~/mockenvironment $ tree
+.
+└── videos
+    ├── assignments
+    │   ├── assignment_1
+    │   │   ├── 4FvogqOs.docx
+    │   │   ├── C3TG9asU.wav
+    │   │   ├── CJduxRQ3.html
+    │   │   ├── ECjytyav.docx
+    │   │   ├── L7XNrFdC.txt
+    │   │   ├── VLzsQNaS.pdf
+    │   │   ├── Xz0fy7VP.pptx
+    │   │   ├── YNQrHwY2.jpg
+    │   │   ├── ZZ3ZZz38.txt
+    │   │   ├── ZdvyrqvN.png
+    │   │   ├── dm8gpHQB.html
+    │   │   └── wYjvwIS4.pdf
+    │   ├── assignment_2
+    │   │   ├── 2SYGwO2Z.csv
+    │   │   ├── BhmEic7M.csv
+    │   │   ├── C3U4p2RJ.docx
+    │   │   ├── FWj1pVEd.pptx
+    │   │   ├── GmrE7iZI.png
+    │   │   ├── LZxA7i7x.jpg
+    │   │   ├── RhHPoeEc.jpg
+    │   │   └── pfF3MxCq.json
+    │   ├── assignment_3
+    │   │   ├── OvtF3oc4.html
+    │   │   ├── OwB4EJQ2.csv
+    │   │   ├── RDlm9Oy3.png
+    │   │   ├── RDt40nh2.xlsx
+    │   │   ├── c8Qjsooh.sh
+    │   │   ├── m7zpRbHI.pdf
+    │   │   ├── nCyJgjMS.wav
+    │   │   ├── onDITkcZ.pptx
+    │   │   └── tGo1lfJN.html
+    │   ├── assignment_4
+    │   │   ├── 7ka9HAMP.sh
+    │   │   ├── C1qmAka4.log
+    │   │   ├── JRRMmqHc.pptx
+    │   │   ├── OD09GzwD.log
+    │   │   ├── RT7D6Fv3.pptx
+    │   │   ├── Rekyxa8c.txt
+    │   │   ├── Sg1QLgnk.pdf
+    │   │   ├── XNTSpGdJ.log
+    │   │   ├── ctjvfBAe.mp3
+    │   │   ├── dsHANAFO.txt
+    │   │   ├── mVBs6fBy.mp4
+    │   │   ├── mkdYkTBG.json
+    │   │   └── tlIAKc5A.sh
+    │   └── assignment_5
+    │       ├── 6QQWWUZh.pdf
+    │       ├── 8hFS0xAb.pptx
+    │       ├── GrJkGPqT.docx
+    │       ├── TIWyRxlZ.json
+    │       ├── TQbB7Ls3.sh
+    │       ├── U3TkABkc.xlsx
+    │       ├── WdM3Sjou.jpg
+    │       ├── XNUc52jq.html
+    │       ├── bJ8TlqVz.log
+    │       ├── ph4xTgOO.mp4
+    │       ├── xGqcA6Yd.sh
+    │       └── yv3oej1l.mp4
+    ├── builds
+    ├── classes
+    │   ├── class_1
+    │   │   ├── QszgTxQL.log
+    │   │   ├── Wpcl4eeS.mp3
+    │   │   ├── hBknGhwa.json
+    │   │   ├── iTfkBPut.mp3
+    │   │   ├── rI7tVdAy.mp4
+    │   │   └── vGZK451i.mp4
+    │   ├── class_2
+    │   │   ├── BJDlE7zH.json
+    │   │   ├── BzknKrHa.wav
+    │   │   ├── DrLKvnFO.json
+    │   │   ├── EZnj1fmv.mp4
+    │   │   ├── J5iyOxLF.log
+    │   │   ├── JMX3UQJe.docx
+    │   │   ├── P5AGzrJb.txt
+    │   │   ├── WgbMlqgB.docx
+    │   │   ├── Wy7kNoix.mp4
+    │   │   ├── gUISJCuF.jpg
+    │   │   └── pk9yMa8v.mp4
+    │   ├── class_3
+    │   │   ├── 6AtilKU8.wav
+    │   │   ├── 8d17QGsl.csv
+    │   │   ├── C1SsQPtp.png
+    │   │   ├── Ndlg29Kf.jpg
+    │   │   ├── a8r9dzy7.pptx
+    │   │   ├── bslm2nnL.csv
+    │   │   ├── mCP0oDUF.txt
+    │   │   ├── oPER33eU.log
+    │   │   ├── ostQDqXn.csv
+    │   │   ├── prijfrvl.csv
+    │   │   └── sOrK6O5C.txt
+    │   ├── class_4
+    │   │   ├── 2jEjI8JR.mp3
+    │   │   ├── Bei8Grls.json
+    │   │   ├── FaSG3FeM.pdf
+    │   │   ├── WYl7oVfw.json
+    │   │   ├── maOBC0nx.json
+    │   │   ├── qSFiFMEA.jpg
+    │   │   ├── simhld2I.mp4
+    │   │   └── v7rizfCg.html
+    │   └── class_5
+    │       ├── 27oOJGCw.docx
+    │       ├── 7DLHYoOI.txt
+    │       ├── DHOT7Y3c.csv
+    │       ├── HrU6gcP5.json
+    │       ├── KImzBsd5.wav
+    │       ├── ONBmWAyx.jpg
+    │       ├── TgHKyIZi.mp4
+    │       ├── bFBNDfcW.xlsx
+    │       ├── hme1mf4w.jpg
+    │       ├── mNfq355c.mp4
+    │       └── sKWlGuHF.log
+    ├── clubs
+    ├── configs
+    ├── customers
+    ├── documentation
+    ├── documents
+    ├── exams
+    ├── faculty
+    ├── invoices
+    ├── logs
+    ├── marketing
+    ├── notes
+    ├── orders
+    │   ├── order_1
+    │   │   ├── GyU8W2UO.txt
+    │   │   ├── JR3XCFwr.json
+    │   │   ├── Pa5aiAoL.sh
+    │   │   ├── QIa5Plvn.mp3
+    │   │   ├── r1Ngymuf.pptx
+    │   │   ├── riHELxtj.html
+    │   │   ├── tpSSKrIR.pptx
+    │   │   └── w38BXfft.pptx
+    │   ├── order_2
+    │   │   ├── 2U0co9k9.txt
+    │   │   ├── 3dUYCvBZ.sh
+    │   │   ├── CqrlJrAA.pdf
+    │   │   ├── QA8GLzgj.wav
+    │   │   ├── UJZyenpZ.png
+    │   │   └── sCFZteLw.sh
+    │   ├── order_3
+    │   │   ├── Em4pS3ae.sh
+    │   │   ├── NkKZsoVt.xlsx
+    │   │   ├── P39SMWtj.mp4
+    │   │   ├── PhcPyXnK.pptx
+    │   │   ├── VZfN0nkz.csv
+    │   │   ├── qOiAFwh2.mp4
+    │   │   └── toDLwkiP.mp4
+    │   ├── order_4
+    │   │   ├── BssCjOVQ.csv
+    │   │   ├── F9nsE27X.wav
+    │   │   ├── PoPvBsLy.csv
+    │   │   ├── cA3yEjHR.sh
+    │   │   ├── urC2kWsy.jpg
+    │   │   └── xfdJ2Jk6.sh
+    │   └── order_5
+    │       ├── 3ImjDFBx.pdf
+    │       ├── Hbz6nz7Z.log
+    │       ├── LTwxBXJB.xlsx
+    │       ├── YmghWFgl.mp3
+    │       ├── axuqGeaO.txt
+    │       ├── ddhyrvLB.docx
+    │       ├── i8ze5bsb.sh
+    │       └── tCOFHI7U.log
+    ├── photos
+    ├── products
+    │   ├── category_1
+    │   │   ├── DaWANzJ9.docx
+    │   │   ├── O9F05dyV.txt
+    │   │   ├── YnobIrYW.png
+    │   │   ├── ZqtKrnmI.wav
+    │   │   ├── b9aQXdQI.docx
+    │   │   ├── bbvkeq6T.json
+    │   │   ├── fXZzpfyG.wav
+    │   │   ├── gkuE6ses.jpg
+    │   │   └── nGSOdC8e.docx
+    │   ├── category_2
+    │   │   ├── Alc2iLb8.jpg
+    │   │   ├── LraLNyZm.pdf
+    │   │   ├── NEMV4z9n.csv
+    │   │   ├── eCf4XTQt.html
+    │   │   ├── fMUMgYf8.pptx
+    │   │   ├── inFMafRR.sh
+    │   │   ├── mby5eZ8t.jpg
+    │   │   ├── rarDqXGb.mp3
+    │   │   ├── sIKhPtcb.jpg
+    │   │   └── zNNdmUd7.pptx
+    │   ├── category_3
+    │   │   ├── 7Zdpcnyl.mp4
+    │   │   ├── BHFRDHrK.wav
+    │   │   ├── E8E4U407.pptx
+    │   │   ├── EDCvGij4.docx
+    │   │   ├── JptfgRT9.json
+    │   │   ├── V7Jin6qX.sh
+    │   │   ├── VCE8jiIl.log
+    │   │   ├── VfllyWF5.log
+    │   │   ├── WF9SeYcR.log
+    │   │   ├── ZtKbH2AZ.jpg
+    │   │   ├── ccQreAHu.xlsx
+    │   │   ├── il2kDXHZ.json
+    │   │   ├── uXn7nJRn.sh
+    │   │   └── zYgibD6o.pdf
+    │   ├── category_4
+    │   │   ├── 9e18SYCu.png
+    │   │   ├── JCW8XIOo.txt
+    │   │   ├── L8uuyaLd.json
+    │   │   ├── OzP5gcuw.pptx
+    │   │   ├── QpAcP9Bz.json
+    │   │   ├── R9JlS6D8.pptx
+    │   │   ├── S96fUA7N.csv
+    │   │   ├── XnnrELLk.docx
+    │   │   ├── d6VALeYq.csv
+    │   │   ├── dKE5lzQB.json
+    │   │   ├── fOEZ3JxK.pdf
+    │   │   └── qOCL625Z.log
+    │   └── category_5
+    │       ├── 66nkr8DB.pdf
+    │       ├── C29iO5FM.pdf
+    │       ├── FxmpKCAI.json
+    │       ├── SmsfXj1T.mp3
+    │       ├── TRPl7Iq6.xlsx
+    │       ├── bCGLbCgm.sh
+    │       ├── euze8Cic.xlsx
+    │       ├── jbgtKs2B.csv
+    │       ├── jxdTf3SA.json
+    │       ├── lWXVtc0I.png
+    │       ├── toEkGg7t.mp3
+    │       ├── uZsF7Zfa.jpg
+    │       └── yALtlkv2.pptx
+    ├── projects
+    ├── releases
+    ├── reports
+    ├── sourcecode
+    │   ├── module_1
+    │   │   ├── 1dxe6Nei.csv
+    │   │   ├── 2DiB4tc2.json
+    │   │   ├── 2moF0J22.pdf
+    │   │   ├── 5bN9Y0jv.docx
+    │   │   ├── E1NMOpwO.wav
+    │   │   ├── FXIVH5Jj.pptx
+    │   │   ├── JuEzxGpy.html
+    │   │   ├── O9TvAyen.docx
+    │   │   ├── UDGg05UW.wav
+    │   │   ├── UGR1JZeQ.csv
+    │   │   ├── ULGGMen3.xlsx
+    │   │   ├── VucVjT7X.json
+    │   │   ├── Yd2mNAjd.pdf
+    │   │   ├── axFCXzqI.pptx
+    │   │   ├── dNbdP2Ib.txt
+    │   │   ├── g23XYBKV.pdf
+    │   │   ├── kN6G7CfQ.log
+    │   │   ├── r6p36A0w.jpg
+    │   │   └── untOUq3U.csv
+    │   ├── module_2
+    │   │   ├── 64MitMIp.csv
+    │   │   ├── 7p6Eg6Zs.jpg
+    │   │   ├── 8coLA5EG.mp3
+    │   │   ├── JNAxhlRD.jpg
+    │   │   ├── LKOsexgX.pptx
+    │   │   ├── O8ILmf31.html
+    │   │   ├── QBZpWLU7.pptx
+    │   │   ├── QpthMhFn.xlsx
+    │   │   ├── S0ODN74S.log
+    │   │   ├── SPUMBlAU.txt
+    │   │   ├── T72Nl62b.xlsx
+    │   │   ├── erV1PGUI.xlsx
+    │   │   ├── oEGynE2R.mp3
+    │   │   ├── pkBG5m1j.sh
+    │   │   ├── wGs2mHdY.xlsx
+    │   │   └── yNoXE6Jt.xlsx
+    │   ├── module_3
+    │   │   ├── 7ZRTQ7ns.jpg
+    │   │   ├── ExhJN8Pa.wav
+    │   │   ├── HDxwsMq4.txt
+    │   │   ├── O3pJQED9.xlsx
+    │   │   ├── PaCAeUTP.json
+    │   │   ├── Qm56GExl.json
+    │   │   ├── SP06DOqm.mp4
+    │   │   ├── SzEDIKWE.mp4
+    │   │   ├── U7D6yluL.log
+    │   │   ├── ZsmrAnhv.xlsx
+    │   │   ├── cSvcd3L0.pdf
+    │   │   ├── ckgOwTHv.json
+    │   │   ├── cv7o2xTV.png
+    │   │   ├── fQcHTYbZ.html
+    │   │   ├── iXJvUYdi.mp4
+    │   │   ├── j6Xk3vNa.log
+    │   │   ├── jIn50Fr3.txt
+    │   │   ├── lZdzL1d6.csv
+    │   │   ├── lnqEDeeX.xlsx
+    │   │   ├── p1bUUDs8.jpg
+    │   │   ├── tYoGPN4v.pptx
+    │   │   ├── uOYsoWWr.pptx
+    │   │   └── xPFpYFpl.pdf
+    │   ├── module_4
+    │   │   ├── 1Evo0Hks.xlsx
+    │   │   ├── 7wo2JRcc.xlsx
+    │   │   ├── NUZvn6pO.log
+    │   │   ├── Odq3Tawd.sh
+    │   │   ├── UuQA43or.txt
+    │   │   ├── VZyeQVP8.jpg
+    │   │   ├── ZKovvNs1.pdf
+    │   │   ├── c72mdcMm.html
+    │   │   ├── exZkuODj.sh
+    │   │   ├── pYWtnxtZ.txt
+    │   │   ├── tDs7ffDU.sh
+    │   │   ├── tOuHuUgm.docx
+    │   │   ├── ubzJGXl9.jpg
+    │   │   └── vQoXIevc.mp4
+    │   └── module_5
+    │       ├── 4MMzvDuh.sh
+    │       ├── 5JyzYUAk.mp4
+    │       ├── 5NxgfgFS.docx
+    │       ├── 7lPLzasF.mp3
+    │       ├── F9lITaub.mp3
+    │       ├── Jx1V9vhd.sh
+    │       ├── KdsqOI5P.pptx
+    │       ├── MPvQpbkk.wav
+    │       ├── Mk4gd7Dk.mp4
+    │       ├── Q92SDEPB.docx
+    │       ├── S4N2ONrA.docx
+    │       ├── TL6Cm7JM.jpg
+    │       ├── U7vGXiNF.jpg
+    │       ├── qw0xoqeL.mp4
+    │       ├── xVty5HVq.csv
+    │       └── yfHrvgEN.pdf
+    ├── spreadsheets
+    ├── students
+    ├── tests
+    │   ├── test_1
+    │   │   ├── 046l4GkJ.mp4
+    │   │   ├── BbiQ6yBX.pptx
+    │   │   ├── GYge67vz.csv
+    │   │   ├── SwVWCODm.json
+    │   │   ├── U7NThWI1.html
+    │   │   ├── ZzbQ9ozO.pdf
+    │   │   ├── guBBbXZ0.sh
+    │   │   ├── hLuVzexS.html
+    │   │   ├── raskPrVE.mp4
+    │   │   └── ugCyU3Wl.jpg
+    │   ├── test_2
+    │   │   ├── 9ob8wpsc.wav
+    │   │   ├── CeyjUgry.mp3
+    │   │   ├── NBeQUppZ.mp3
+    │   │   ├── Tjjuv8i8.jpg
+    │   │   ├── Zo2IKiDL.wav
+    │   │   ├── cS838KbB.mp3
+    │   │   ├── ca1rwfib.mp4
+    │   │   ├── dKfeJD1X.mp3
+    │   │   ├── eMXi7KkG.mp4
+    │   │   ├── li1zeFfR.pdf
+    │   │   ├── qLeRwLvB.docx
+    │   │   ├── r6GgIecw.json
+    │   │   ├── rhjBfjFM.wav
+    │   │   ├── xgGHBEn1.mp3
+    │   │   ├── ypf62FpN.pptx
+    │   │   ├── zFgecrin.mp4
+    │   │   └── zYG96zYD.csv
+    │   ├── test_3
+    │   │   ├── 2k7Sg3MB.json
+    │   │   ├── 3jRoDZqA.docx
+    │   │   ├── 57flKaDG.pdf
+    │   │   ├── A0CCMCiB.docx
+    │   │   ├── I1bx2WyZ.sh
+    │   │   ├── K2Z8LwML.log
+    │   │   ├── MQgtPJYP.pptx
+    │   │   ├── WNA8Z11L.xlsx
+    │   │   ├── ZNM3n7Ig.json
+    │   │   ├── cFme7vWb.csv
+    │   │   ├── hjKbmh6o.mp3
+    │   │   ├── oAY84hCl.png
+    │   │   ├── uAI99gFy.wav
+    │   │   └── uK9YYI3y.html
+    │   ├── test_4
+    │   │   ├── 7ESL8QVb.jpg
+    │   │   ├── 7FEbphHZ.xlsx
+    │   │   ├── BWGfiNbM.pptx
+    │   │   ├── Ca3ndemA.xlsx
+    │   │   ├── HtVLNinE.txt
+    │   │   ├── I1BBckft.csv
+    │   │   ├── OrXAuR9y.wav
+    │   │   ├── UGnVJwpp.pdf
+    │   │   ├── Z1yhjgom.xlsx
+    │   │   ├── ax0aDM9z.json
+    │   │   ├── huwq28VY.png
+    │   │   ├── mTRsGwQV.json
+    │   │   ├── uG2WYlFv.docx
+    │   │   ├── uhQMCvYt.jpg
+    │   │   └── ywVNT5Ns.pdf
+    │   └── test_5
+    │       ├── 6tYqaHBv.txt
+    │       ├── 8Ox6jk79.png
+    │       ├── CyGrFqwX.pptx
+    │       ├── F5IqrRRe.png
+    │       ├── VgMqrOIz.txt
+    │       ├── Z10tC0V6.docx
+    │       ├── jUyAUHF2.txt
+    │       ├── jpcXU8Dk.mp4
+    │       ├── lwP6Dhjs.pdf
+    │       ├── mjfTT6IJ.mp3
+    │       ├── o44FxjTv.log
+    │       ├── qdfDmMbR.sh
+    │       ├── rl8tPc4w.html
+    │       ├── tCb7RAZV.csv
+    │       └── zjgz0Vt2.log
+    ├── text
+    └── webpage
+
+57 directories, 353 files
+@AlanJ11 ➜ ~/mockenvironment $ find ./ -name *.jpg
+./videos/assignments/assignment_2/LZxA7i7x.jpg
+./videos/assignments/assignment_2/RhHPoeEc.jpg
+./videos/assignments/assignment_1/YNQrHwY2.jpg
+./videos/assignments/assignment_5/WdM3Sjou.jpg
+./videos/sourcecode/module_2/7p6Eg6Zs.jpg
+./videos/sourcecode/module_2/JNAxhlRD.jpg
+./videos/sourcecode/module_3/p1bUUDs8.jpg
+./videos/sourcecode/module_3/7ZRTQ7ns.jpg
+./videos/sourcecode/module_1/r6p36A0w.jpg
+./videos/sourcecode/module_4/ubzJGXl9.jpg
+./videos/sourcecode/module_4/VZyeQVP8.jpg
+./videos/sourcecode/module_5/U7vGXiNF.jpg
+./videos/sourcecode/module_5/TL6Cm7JM.jpg
+./videos/classes/class_4/qSFiFMEA.jpg
+./videos/classes/class_2/gUISJCuF.jpg
+./videos/classes/class_3/Ndlg29Kf.jpg
+./videos/classes/class_5/ONBmWAyx.jpg
+./videos/classes/class_5/hme1mf4w.jpg
+./videos/tests/test_1/ugCyU3Wl.jpg
+./videos/tests/test_4/uhQMCvYt.jpg
+./videos/tests/test_4/7ESL8QVb.jpg
+./videos/tests/test_2/Tjjuv8i8.jpg
+./videos/products/category_5/uZsF7Zfa.jpg
+./videos/products/category_2/Alc2iLb8.jpg
+./videos/products/category_2/mby5eZ8t.jpg
+./videos/products/category_2/sIKhPtcb.jpg
+./videos/products/category_3/ZtKbH2AZ.jpg
+./videos/products/category_1/gkuE6ses.jpg
+./videos/orders/order_4/urC2kWsy.jpg
+@AlanJ11 ➜ ~/mockenvironment $ mv *.jpg photos/
+mv: cannot stat '*.jpg': No such file or directory
+@AlanJ11 ➜ ~/mockenvironment $ find ./ -name *.jpg -exec mv {} photos/ \;
+mv: cannot move './videos/assignments/assignment_2/LZxA7i7x.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/assignments/assignment_2/RhHPoeEc.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/assignments/assignment_1/YNQrHwY2.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/assignments/assignment_5/WdM3Sjou.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_2/7p6Eg6Zs.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_2/JNAxhlRD.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_3/p1bUUDs8.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_3/7ZRTQ7ns.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_1/r6p36A0w.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_4/ubzJGXl9.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_4/VZyeQVP8.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_5/U7vGXiNF.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/sourcecode/module_5/TL6Cm7JM.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/classes/class_4/qSFiFMEA.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/classes/class_2/gUISJCuF.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/classes/class_3/Ndlg29Kf.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/classes/class_5/ONBmWAyx.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/classes/class_5/hme1mf4w.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/tests/test_1/ugCyU3Wl.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/tests/test_4/uhQMCvYt.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/tests/test_4/7ESL8QVb.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/tests/test_2/Tjjuv8i8.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/products/category_5/uZsF7Zfa.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/products/category_2/Alc2iLb8.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/products/category_2/mby5eZ8t.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/products/category_2/sIKhPtcb.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/products/category_3/ZtKbH2AZ.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/products/category_1/gkuE6ses.jpg' to 'photos/': Not a directory
+mv: cannot move './videos/orders/order_4/urC2kWsy.jpg' to 'photos/': Not a directory
+@AlanJ11 ➜ ~/mockenvironment $ find ./ -name *.jpg -exec mv {} /photos \;
+mv: cannot move './videos/assignments/assignment_2/LZxA7i7x.jpg' to '/photos': Permission denied
+mv: cannot move './videos/assignments/assignment_2/RhHPoeEc.jpg' to '/photos': Permission denied
+mv: cannot move './videos/assignments/assignment_1/YNQrHwY2.jpg' to '/photos': Permission denied
+mv: cannot move './videos/assignments/assignment_5/WdM3Sjou.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_2/7p6Eg6Zs.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_2/JNAxhlRD.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_3/p1bUUDs8.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_3/7ZRTQ7ns.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_1/r6p36A0w.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_4/ubzJGXl9.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_4/VZyeQVP8.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_5/U7vGXiNF.jpg' to '/photos': Permission denied
+mv: cannot move './videos/sourcecode/module_5/TL6Cm7JM.jpg' to '/photos': Permission denied
+mv: cannot move './videos/classes/class_4/qSFiFMEA.jpg' to '/photos': Permission denied
+mv: cannot move './videos/classes/class_2/gUISJCuF.jpg' to '/photos': Permission denied
+mv: cannot move './videos/classes/class_3/Ndlg29Kf.jpg' to '/photos': Permission denied
+mv: cannot move './videos/classes/class_5/ONBmWAyx.jpg' to '/photos': Permission denied
+mv: cannot move './videos/classes/class_5/hme1mf4w.jpg' to '/photos': Permission denied
+mv: cannot move './videos/tests/test_1/ugCyU3Wl.jpg' to '/photos': Permission denied
+mv: cannot move './videos/tests/test_4/uhQMCvYt.jpg' to '/photos': Permission denied
+mv: cannot move './videos/tests/test_4/7ESL8QVb.jpg' to '/photos': Permission denied
+mv: cannot move './videos/tests/test_2/Tjjuv8i8.jpg' to '/photos': Permission denied
+mv: cannot move './videos/products/category_5/uZsF7Zfa.jpg' to '/photos': Permission denied
+mv: cannot move './videos/products/category_2/Alc2iLb8.jpg' to '/photos': Permission denied
+mv: cannot move './videos/products/category_2/mby5eZ8t.jpg' to '/photos': Permission denied
+mv: cannot move './videos/products/category_2/sIKhPtcb.jpg' to '/photos': Permission denied
+mv: cannot move './videos/products/category_3/ZtKbH2AZ.jpg' to '/photos': Permission denied
+mv: cannot move './videos/products/category_1/gkuE6ses.jpg' to '/photos': Permission denied
+mv: cannot move './videos/orders/order_4/urC2kWsy.jpg' to '/photos': Permission denied
+@AlanJ11 ➜ ~/mockenvironment $ mv *.jpg photos
+mv: cannot stat '*.jpg': No such file or directory
+@AlanJ11 ➜ ~/mockenvironment $ mv .jpg photos
+mv: cannot stat '.jpg': No such file or directory
+@AlanJ11 ➜ ~/mockenvironment $ find ./ -name *.jpg -exec cp {} /photos \;
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+cp: cannot create regular file '/photos': Permission denied
+@AlanJ11 ➜ ~/mockenvironment $ 
